@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Annotations" >
+    <test name="Run test Annotations">
+        <classes>
+            <class name="DemoTests.DataPickers">
+                <methods>
+                    <exclude name="test_1"/>
+                    <include name="test_2"/>
+                </methods>
+            </class>
+            <class name="DemoTests.ListBox"></class>
+        </classes>
+    </test>
+</suite>

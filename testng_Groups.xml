@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Annotations" >
+<test name="Run Group Annotations">
+    <groups>
+        <run>
+            <include name="smoke"/>
+
+        </run>
+    </groups>
+    <classes>
+        <class name="DemoTests.DataPickers"></class>
+        <class name="DemoTests.ListBox"></class>
+    </classes>
+</test>
+</suite>
